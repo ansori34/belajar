@@ -1,0 +1,22 @@
+// Local Git
+
+git init
+git add .
+git status
+git commit
+git log
+
+// Remote Git
+
+git remote add origin
+git remote remove origin
+git push origin main
+git pull
+git clone
+git stash
+git pop
+
+
+perbedaan git pull & git clone
+git pull => ketika dia dipull, secara default ada folder .git
+git clone => ketika di clone, gaada folder .git
