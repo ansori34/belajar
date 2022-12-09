@@ -8,15 +8,15 @@ git log
 
 // Remote Git
 
-git remote add origin
-git remote remove origin
-git push origin main
-git pull
-git clone
-git stash
-git pop
+git remote add origin => Buat menghubungkan antara local git dengan remote git
+git remote remove origin => Untuk menghapus hubungan antara local git dengan remote git
+git push origin main => Melakukan upload file/folder dari local ke remote
+git pull => melakukan download file/folder dari remote ke local
+git clone => melakukan download file/folder dari remote ke local tanpa implementasi folder .git
+git stash => untuk menyimpan progress file/folder sementara waktu
+git pop => untuk menarik progress file/folder yang sempat disimpan di dalam stash
 
 
-perbedaan git pull & git clone
+# perbedaan git pull & git clone
 git pull => ketika dia dipull, secara default ada folder .git
 git clone => ketika di clone, gaada folder .git
